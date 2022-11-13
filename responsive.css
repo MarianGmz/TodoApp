@@ -1,0 +1,39 @@
+
+@media screen and (max-width:1040px){
+    .mainCard{
+        width: 60%;
+        height: 80%;
+    }
+}
+
+
+@media screen and (max-width:770px){
+    .mainCard{
+        width: 60%;
+    }
+
+    .inputForm{
+        width: 60%;
+    }
+    
+    .btnCreate{ 
+        width: 150px;
+    }
+}
+
+
+@media screen and (max-width:440px) {
+    .mainCard{
+        width: 70%;
+        height: 90%;
+    }
+    form{
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+    }
+    .btnCreate{
+        
+        width: 100px;
+    }
+}
